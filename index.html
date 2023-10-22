@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav_content">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resources.html">Resources</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="sectionContainer">
+    <h1>Chicken Kitchen</h1>
+
+    <p>Welcome to Chicken Kitchen, your ultimate destination for delicious, nutritious, and easy-to-make recipes tailored for college students! We understand that balancing a hectic student life with the desire to eat healthily can be challenging. Simply enter the ingredients you have, and we'll generate some easy yet nutritious recipes for you!</p>
+
+    <div class="image_content">
+      <img src="">
+  
+    <div id="inputBox" class="section">
+  
+      <h3>Enter your supplies!</h3>
+
+      <div>  
+        <h4>Ingredients: </h4>
+        <table>
+          <tr>
+            <td id="Protein">
+              <p>Proteins</p>
+                <input type="checkbox" id="chicken" name="ingredientsCheckBoxes" value="Chicken">
+                  <label for="chicken"> Chicken </label><br>
+                <input type="checkbox" id="egg" name="ingredientsCheckBoxes" value="Egg">
+                  <label for="egg"> Egg</label><br>
+              <input type="checkbox" id="nuts" name="ingredientsCheckBoxes" value="Nuts">
+                <label for="Nuts"> Nuts</label><br>
+            </td>
+            <td id="Grains">
+              <p>Grains</p>
+                <input type="checkbox" id="rice" name="ingredientsCheckBoxes" value="Rice">
+                  <label for="rice"> Rice</label><br>
+                <input type="checkbox" id="oatmeal" name="ingredientsCheckBoxes" value="Oatmeal">
+                  <label for="oatmeal"> Oatmeal</label><br>
+              <input type="checkbox" id="bread" name="ingredientsCheckBoxes" value="Bread">
+                <label for="bread"> Bread</label><br>
+              <input type="checkbox" id="pasta" name="ingredientsCheckBoxes" value="Pasta">
+                <label for="pasta"> Pasta</label><br>
+            </td>
+          </tr>
+          <tr>
+            <td id="Fruits and Vegetables">
+              <p>Vegetables</p>
+                <input type="checkbox" id="cabbage" name="ingredientsCheckBoxes" value="Cabbage">
+                  <label for="cabbage">Cabbage</label><br>
+                <input type="checkbox" id="romaineLettuce" name="ingredientsCheckBoxes" value="RomaineLettuce">
+                  <label for="romaineLettuce"> Romaine Lettuce</label><br>
+              <input type="checkbox" id="broccoli" name="ingredientsCheckBoxes" value="Broccoli">
+                <label for="broccoli"> Broccoli</label><br>
+              <input type="checkbox" id="peas" name="ingredientsCheckBoxes" value="Peas">
+                <label for="peas"> Peas</label><br>
+              <input type="checkbox" id="spinach" name="ingredientsCheckBoxes" value="Spinach">
+                <label for="spinach"> Spinach</label><br>
+            </td>
+            <td id="Dairy">
+              <p>Dairy</p>
+                <input type="checkbox" id="cheese" name="ingredientsCheckBoxes" value="Cheese">
+                  <label for="cheese"> Cheese</label><br>
+                <input type="checkbox" id="yogurt" name="ingredientsCheckBoxes" value="Yogurt">
+                  <label for="yogurt"> Yogurt</label><br>
+              <input type="checkbox" id="milk" name="ingredientsCheckBoxes" value="Milk">
+                <label for="milk"> Milk</label><br>
+              <input type="checkbox" id="butter/oil" name="ingredientsCheckBoxes" value="Butter/Oil">
+                <label for="butter/oil"> Butter/Oil</label><br>
+            </td>
+          </tr>
+        </table>
+          
+      </div>
+      
+      <a href="recipe.html"> <button id="button"> Get Recipes </button> </a>
+      
+    </div>
+  
+    <div id="resultsContainer" class="section">
+     <!-- <h4>Here's what you can make!</h4> -->
+      <p id="testArea"></p>
+    </div>
+
+  </div>
+  
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
